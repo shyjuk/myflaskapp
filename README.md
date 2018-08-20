@@ -22,7 +22,7 @@ Install dependencies with below commands:
 - create database myflaskapp;
 - use myflaskapp;
 - create table users(id INT(10) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50), email VARCHAR(100), username VARCHAR(30), password VARCHAR(100), register_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
-
+- create table articles ( id  INT(11) AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255), author VARCHAR(100), body TEXT, create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
 - CREATE USER 'appuser'@'localhost' IDENTIFIED BY 'flapass';
 - GRANT ALL PRIVILEGES ON myflaskapp.* TO 'appuser'@'localhost';
 - 
