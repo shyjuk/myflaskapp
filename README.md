@@ -3,7 +3,7 @@
 Simple application with authentication and CRUD functionality using the Python Flask micro-framework
 
 ## Youtube Link
-- - [Python Flask From Scratch - Getting Started](https://www.youtube.com/watch?v=zRwy8gtgJ1A)
+- [Python Flask From Scratch - Getting Started](https://www.youtube.com/watch?v=zRwy8gtgJ1A)
 
 ## Installation
 
