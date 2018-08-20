@@ -16,7 +16,7 @@ Install dependencies with below commands:
 - pip install flask 
 - pip install flask-mysqldb
 - pip install flask-WTF
-- pip install flask-passlib
+- pip install passlib
 
 
 ### Running the app
