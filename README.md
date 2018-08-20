@@ -24,7 +24,7 @@ Install dependencies with below commands:
 - create table users(id INT(10) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50), email VARCHAR(100), username VARCHAR(30), password VARCHAR(100), register_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
 
 - CREATE USER 'appuser'@'localhost' IDENTIFIED BY 'flapass';
-- GRANT ALL PRIVILEGES ON users.* TO 'appuser'@'localhost';
+- GRANT ALL PRIVILEGES ON myflaskapp.* TO 'appuser'@'localhost';
 - 
 ## Configure app.py
 - Edit app.py and add the MySQL credentials created above.
