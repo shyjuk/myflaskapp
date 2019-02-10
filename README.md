@@ -16,10 +16,7 @@ To use this template, your computer needs:
 
 Install dependencies with below commands:
 
-- pip install flask 
-- pip install flask-mysqldb
-- pip install flask-WTF
-- pip install passlib
+- pip install flask flask-mysqldb flask-WTF passlib
 
 ## MySQL Commands
 - create database myflaskapp;
